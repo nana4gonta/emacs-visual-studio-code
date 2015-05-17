@@ -1,0 +1,271 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key":"ctrl+g",
+        "command":"closePeekDeclarationEditor",
+        "when":"editorFocus && inInnerEditor"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"closeReferenceSearchEditor",
+        "when":"editorFocus && inInnerEditor"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"cancelSelection",
+        "when":"editorTextFocus && editorHasSelection"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"removeSecondaryCursors",
+        "when":"editorTextFocus && editorHasMultipleSelections"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"closeFindWidget",
+        "when":"editorFocus && findWidgetVisible"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"leaveChangeAllMode",
+        "when":"editorTextFocus && inChangeAllMode"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"leaveSnippet",
+        "when":"editorTextFocus && inSnippetMode"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"closeMarkersNavigation",
+        "when":"editorFocus && markersNavigationVisible"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"closePeekDeclaration",
+        "when":"editorFocus && peekDeclarationVisible"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"closeReferenceSearch",
+        "when":"editorFocus && referenceSearchVisible"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"closeParameterHints",
+        "when":"editorTextFocus && parameterHintsVisible"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"closeQuickFixWidget",
+        "when":"editorFocus && quickFixWidgetVisible"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"hideSuggestWidget",
+        "when":"editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"cancelRenameInput",
+        "when":"editorFocus && renameInputVisible"
+    },
+    {
+        "key":"ctrl+g",
+        "command":"workbench.action.closeMessages",
+        "when":"globalMessageVisible"
+    },
+    {
+        "key":"ctrl+n",
+        "command":"cursorDown",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+p",
+        "command":"cursorUp",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+f",
+        "command":"cursorRight",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+b",
+        "command":"cursorLeft",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+v",
+        "command":"cursorPageDown",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+v",
+        "command":"cursorPageUp",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+shift+,",
+        "command":"cursorTop",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+shift+.",
+        "command":"cursorBottom",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+a",
+        "command":"cursorHome",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+e",
+        "command":"cursorEnd",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+f",
+        "command":"cursorWordRight",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+b",
+        "command":"cursorWordLeft",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+b",
+        "command":"cursorWordLeft",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+d",
+        "command":"deleteRight",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+h",
+        "command":"deleteLeft",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+d",
+        "command":"deleteWordRight",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+h",
+        "command":"deleteWordLeft",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+w",
+        "command":"editor.action.clipboardCopyAction",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+w",
+        "command":"editor.action.clipboardCutAction",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+y",
+        "command":"editor.action.clipboardPasteAction",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+s",
+        "command":"actions.find",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+r",
+        "command":"actions.find",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"alt+shift+5",
+        "command":"editor.action.startFindReplaceAction",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+k",
+        "command":"editor.action.cutLines",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+/",
+        "command":"undo",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+_",
+        "command":"undo",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+x h",
+        "command":"editor.action.selectAll",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+x ctrl+s",
+        "command":"workbench.action.files.save"
+    },
+    {
+        "key":"alt+x",
+        "command":"workbench.action.showCommands"
+    },
+    {
+        "key":"ctrl+n",
+        "command":"showNextParameterHint",
+        "when":"editorTextFocus && parameterHintsVisible"
+    },
+    {
+        "key":"ctrl+p",
+        "command":"showPrevParameterHint",
+        "when":"editorTextFocus && parameterHintsVisible"
+    },
+    {
+        "key":"ctrl+v",
+        "command":"selectNextPageQuickFix",
+        "when":"editorFocus && quickFixWidgetVisible"
+    },
+    {
+        "key":"ctrl+n",
+        "command":"selectNextQuickFix",
+        "when":"editorFocus && quickFixWidgetVisible"
+    },
+    {
+        "key":"alt+v",
+        "command":"selectPrevPageQuickFix",
+        "when":"editorFocus && quickFixWidgetVisible"
+    },
+    {
+        "key":"ctrl+p",
+        "command":"selectPrevQuickFix",
+        "when":"editorFocus && quickFixWidgetVisible"
+    },
+    {
+        "key":"ctrl+v",
+        "command":"selectNextPageSuggestion",
+        "when":"editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key":"ctrl+n",
+        "command":"selectNextSuggestion",
+        "when":"editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key":"alt+v",
+        "command":"selectPrevPageSuggestion",
+        "when":"editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key":"ctrl+p",
+        "command":"selectPrevSuggestion",
+        "when":"editorTextFocus && suggestWidgetVisible"
+    }
+]
