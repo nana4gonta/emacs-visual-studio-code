@@ -211,8 +211,16 @@
         "when":"editorTextFocus"
     },
     {
+        "key":"ctrl+x ctrl+f",
+        "command":"workbench.action.files.openFil"
+    },
+    {
         "key":"ctrl+x ctrl+s",
         "command":"workbench.action.files.save"
+    },
+    {
+        "key":"ctrl+x s",
+        "command":"workbench.action.files.saveAll"
     },
     {
         "key":"alt+x",
@@ -267,5 +275,17 @@
         "key":"ctrl+p",
         "command":"selectPrevSuggestion",
         "when":"editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key":"ctrl+x 0",
+        "command":"workbench.action.closeActiveEditor"
+    },
+    {
+        "key":"ctrl+x 3",
+        "command":"workbench.action.splitEditor"
+    },
+    {
+        "key":"ctrl+x o",
+        "command":"workbench.action.cycleEditor"
     }
 ]
