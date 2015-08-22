@@ -215,10 +215,18 @@
         "command":"actions.find",
         "when":"editorTextFocus"
     },
+        "key":"ctrl+s",
+        "command":"editor.action.nextMatchFindAction",
+        "when": "editorFocus && findWidgetVisible"
+    },
     {
         "key":"ctrl+r",
         "command":"actions.find",
         "when":"editorTextFocus"
+    },
+        "key":"ctrl+r",
+        "command":"editor.action.previousMatchFindAction",
+        "when": "editorFocus && findWidgetVisible"
     },
     {
         "key":"alt+shift+5",
