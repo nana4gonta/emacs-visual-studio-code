@@ -8,5 +8,15 @@
         "key": "ctrl+_",
         "command": "undo",
         "when": "editorTextFocus"
+    },
+    { 
+       "key": "ctrl+alt+/", 
+       "command": "redo",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+_",
+        "command": "redo",
+        "when": "editorTextFocus"
     }
 ]

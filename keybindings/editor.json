@@ -12,6 +12,10 @@
         "command": "workbench.action.files.saveAll"
     },
     {
+        "key": "ctrl+x s",
+        "command": "workbench.action.files.saveAs"
+    },
+    {
         "key": "ctrl+x 0",
         "command": "workbench.action.closeActiveEditor"
     },

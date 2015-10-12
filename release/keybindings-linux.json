@@ -113,6 +113,16 @@
         "when": "editorTextFocus"
     }, 
     {
+        "key": "ctrl+alt+/", 
+        "command": "redo", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "ctrl+alt+_", 
+        "command": "redo", 
+        "when": "editorTextFocus"
+    }, 
+    {
         "key": "ctrl+f", 
         "command": "cursorRight", 
         "when": "editorTextFocus"
@@ -258,6 +268,10 @@
     {
         "key": "ctrl+x s", 
         "command": "workbench.action.files.saveAll"
+    }, 
+    {
+        "key": "ctrl+x s", 
+        "command": "workbench.action.files.saveAs"
     }, 
     {
         "key": "ctrl+x 0", 
