@@ -1,0 +1,46 @@
+[
+    {
+        "key": "meta+v",
+        "command": "cursorPageUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "meta+shift+,",
+        "command": "cursorTop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "meta+shift+.",
+        "command": "cursorBottom",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "meta+f",
+        "command": "cursorWordRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "meta+d",
+        "command": "deleteWordRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "meta+h",
+        "command": "deleteWordLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "meta+w",
+        "command": "editor.action.clipboardCopyAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "meta+shift+5",
+        "command": "editor.action.startFindReplaceAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "meta+x",
+        "command": "workbench.action.showCommands"
+    }
+]

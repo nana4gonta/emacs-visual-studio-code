@@ -1,0 +1,12 @@
+[
+    {
+        "key": "ctrl+/",
+        "command": "undo",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+_",
+        "command": "undo",
+        "when": "editorTextFocus"
+    }
+]
