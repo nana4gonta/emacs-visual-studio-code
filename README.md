@@ -9,6 +9,22 @@ File -> Preferences -> Keyboard shortcuts
 2. Copy text and paste.
 3. Good luck!!
 
+# Build
+- requirement
+  - Python >= 2.7
+
+```
+make build-windows
+make build-linux
+make build-osx
+```
+
+or
+
+```
+python build.py -p windows -t keybindings/cancel.json keybindings/cursors.json
+```
+
 # Issues
 - There may be key bindings that are not enough.
 - It does not fix the key bindings that had been batting (ex. `ctrl+g`).
