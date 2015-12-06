@@ -10,8 +10,13 @@
         "when": "editorTextFocus"
     },
     { 
-       "key": "ctrl+alt+/", 
-       "command": "redo",
+        "key": "ctrl+alt+/", 
+        "command": "redo",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+x u",
+        "command": "undo",
         "when": "editorTextFocus"
     },
     {
