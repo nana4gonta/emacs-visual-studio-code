@@ -26,5 +26,19 @@
     {
         "key": "ctrl+x o",
         "command": "workbench.action.cycleEditor"
+    },
+    {
+        "key": "ctrl+x b",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen" 
+    },
+    { 
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
     }
 ]
