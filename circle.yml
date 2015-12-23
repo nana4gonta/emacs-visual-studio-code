@@ -1,0 +1,11 @@
+machine:
+  python:
+    version: 2.7.10
+dependencies:
+  override:
+    - make
+deployment:
+  github:
+    branch: master
+    commands:
+      - bash push.sh
