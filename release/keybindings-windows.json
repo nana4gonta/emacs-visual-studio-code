@@ -74,6 +74,11 @@
         "when": "editorTextFocus"
     }, 
     {
+        "key": "ctrl+x u", 
+        "command": "undo", 
+        "when": "editorTextFocus"
+    }, 
+    {
         "key": "ctrl+alt+_", 
         "command": "redo", 
         "when": "editorTextFocus"
@@ -240,6 +245,20 @@
     {
         "key": "ctrl+x o", 
         "command": "workbench.action.cycleEditor"
+    }, 
+    {
+        "key": "ctrl+x b", 
+        "command": "workbench.action.quickOpen"
+    }, 
+    {
+        "key": "ctrl+p", 
+        "command": "workbench.action.quickOpenNavigatePrevious", 
+        "when": "inQuickOpen"
+    }, 
+    {
+        "key": "ctrl+n", 
+        "command": "workbench.action.quickOpenNavigateNext", 
+        "when": "inQuickOpen"
     }, 
     {
         "key": "ctrl+s", 
