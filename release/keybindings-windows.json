@@ -1,5 +1,65 @@
 [
     {
+        "key": "ctrl+f", 
+        "command": "cursorRight", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "ctrl+b", 
+        "command": "cursorLeft", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "ctrl+n", 
+        "command": "cursorDown", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "ctrl+p", 
+        "command": "cursorUp", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "ctrl+a", 
+        "command": "cursorHome", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "ctrl+e", 
+        "command": "cursorEnd", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "alt+f", 
+        "command": "cursorWordRight", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "alt+b", 
+        "command": "cursorWordLeft", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "alt+shift+,", 
+        "command": "cursorTop", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "alt+shift+.", 
+        "command": "cursorBottom", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "ctrl+v", 
+        "command": "cursorPageDown", 
+        "when": "editorTextFocus"
+    }, 
+    {
+        "key": "alt+v", 
+        "command": "cursorPageUp", 
+        "when": "editorTextFocus"
+    }, 
+    {
         "key": "ctrl+g", 
         "command": "closePeekDeclarationEditor", 
         "when": "editorFocus && inInnerEditor"
@@ -73,66 +133,6 @@
         "key": "ctrl+g", 
         "command": "workbench.action.closeMessages", 
         "when": "globalMessageVisible"
-    }, 
-    {
-        "key": "ctrl+f", 
-        "command": "cursorRight", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "ctrl+b", 
-        "command": "cursorLeft", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "ctrl+n", 
-        "command": "cursorDown", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "ctrl+p", 
-        "command": "cursorUp", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "ctrl+a", 
-        "command": "cursorHome", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "ctrl+e", 
-        "command": "cursorEnd", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "alt+f", 
-        "command": "cursorWordRight", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "alt+b", 
-        "command": "cursorWordLeft", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "alt+shift+,", 
-        "command": "cursorTop", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "alt+shift+.", 
-        "command": "cursorBottom", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "ctrl+v", 
-        "command": "cursorPageDown", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "alt+v", 
-        "command": "cursorPageUp", 
-        "when": "editorTextFocus"
     }, 
     {
         "key": "ctrl+x ctrl+f", 
@@ -293,11 +293,6 @@
     {
         "key": "alt+shift+5", 
         "command": "editor.action.startFindReplaceAction", 
-        "when": "editorTextFocus"
-    }, 
-    {
-        "key": "ctrl+x h", 
-        "command": "editor.action.selectAll", 
         "when": "editorTextFocus"
     }, 
     {
