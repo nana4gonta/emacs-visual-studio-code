@@ -1,4 +1,6 @@
-keybindings:=$(wildcard keybindings/*.json)
+keybindings:=keybindings/cursors.json keybindings/cancel.json keybindings/editor.json 
+keybindings+=keybindings/kill_delete.json keybindings/pallete_widget.json keybindings/query_replase.json 
+keybindings+=keybindings/undo.json
 
 all: build-windows build-linux build-osx
 
