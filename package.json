@@ -1,0 +1,34 @@
+{
+  "name": "emacs-visual-studio-code",
+  "version": "1.0.0",
+  "description": "Emacs-keybindings generator for Visual Studio Code",
+  "scripts": {
+    "build": "npm run build:windows && npm run build:osx && npm run build:linux",
+    "build:windows": "node generator.js -p keybindings/platform/windows.json -o release/keybindings-windows.json",
+    "build:osx": "node generator.js -p keybindings/platform/osx.json -o release/keybindings-osx.json",
+    "build:linux": "node generator.js -p keybindings/platform/linux.json -o release/keybindings-linux.json"
+  },
+  "keybindings": [
+    "keybindings/cursors.json",
+    "keybindings/cancel.json",
+    "keybindings/editor.json",
+    "keybindings/kill_delete.json",
+    "keybindings/pallete_widget.json",
+    "keybindings/query_replase.json",
+    "keybindings/region.json",
+    "keybindings/undo.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nana4gonta/emacs-visual-studio-code.git"
+  },
+  "author": "nana4gonta <kazuhiro@rhodonit.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nana4gonta/emacs-visual-studio-code/issues"
+  },
+  "homepage": "https://github.com/nana4gonta/emacs-visual-studio-code#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}

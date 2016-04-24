@@ -1,9 +1,6 @@
-machine:
-  python:
-    version: 2.7.10
 dependencies:
   override:
-    - make
+    - npm install && npm run build
 deployment:
   github:
     branch: master
