@@ -1,5 +1,5 @@
 # Emacs VS Code
-Emacs keybindigs for VS Code.
+Emacs keybindings for VS Code.
 
 # Usage
 1. Open user keybindings file.
@@ -11,18 +11,13 @@ File -> Preferences -> Keyboard shortcuts
 
 # Build
 - requirement
-  - Python >= 2.7
+  - Node >= v4.x
 
 ```
-make build-windows
-make build-linux
-make build-osx
-```
-
-or
-
-```
-python build.py -p windows -t keybindings/cancel.json keybindings/cursors.json
+npm run build
+npm run build:windows
+npm run build:linux
+npm run build:osx
 ```
 
 # Issues
