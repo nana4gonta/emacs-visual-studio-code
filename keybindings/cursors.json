@@ -58,5 +58,15 @@
         "key": "alt+v",
         "command": "cursorPageUp",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "extension.setMark",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+2",
+        "command": "extension.setMark",
+        "when": "editorTextFocus"
     }
 ]

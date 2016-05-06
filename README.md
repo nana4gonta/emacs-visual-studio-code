@@ -9,6 +9,13 @@ File -> Preferences -> Keyboard shortcuts
 2. Copy text and paste.
 3. Good luck!!
 
+## Additional notes
+Setting the mark(`extension.setMark`) is available by installing the `VS Code Mark/Point` extension (@ericmccarthy7).
+```
+ext install VS Code Mark/Point
+```
+
+
 # Build
 - requirement
   - Node >= v4.x

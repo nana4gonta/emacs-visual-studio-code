@@ -1,3 +1,6 @@
+machine:
+  timezone:
+    Asia/Tokyo
 dependencies:
   override:
     - npm install && npm run build
