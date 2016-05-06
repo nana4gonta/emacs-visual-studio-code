@@ -1,7 +1,7 @@
 [
     {
-        "key": "ctrl+x 0",
-        "command": "workbench.action.closeActiveEditor"
+        "key": "ctrl+x s",
+        "command": "workbench.action.files.saveAs"
     },
     {
         "key": "ctrl+x ctrl+f",
@@ -16,8 +16,8 @@
         "command": "workbench.action.files.saveAll"
     },
     {
-        "key": "ctrl+x s",
-        "command": "workbench.action.files.saveAs"
+        "key": "ctrl+x 0",
+        "command": "workbench.action.closeActiveEditor"
     },
     {
         "key": "ctrl+x 3",
@@ -73,6 +73,16 @@
     {
         "key": "alt+v",
         "command": "cursorPageUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "extension.setMark",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+2",
+        "command": "extension.setMark",
         "when": "editorTextFocus"
     },
     {
@@ -166,13 +176,13 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+alt+_",
-        "command": "redo",
+        "key": "ctrl+_",
+        "command": "undo",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+_",
-        "command": "undo",
+        "key": "ctrl+alt+_",
+        "command": "redo",
         "when": "editorTextFocus"
     },
     {
